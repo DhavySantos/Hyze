@@ -1,0 +1,9 @@
+{
+    "exec" : "tsc && node build/main.js",
+    "watch": "source",
+    "ext": "ts",
+    "events": {
+        "restart": "clear",
+        "start": "clear"
+    }
+}

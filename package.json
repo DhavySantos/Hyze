@@ -1,0 +1,27 @@
+{
+  "name": "hyze",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/yt-search": "^2.10.3",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node .",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.0",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "yt-search": "^2.10.4",
+    "ytdl-core": "^4.11.5"
+  }
+}
